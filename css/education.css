@@ -91,7 +91,7 @@ button:hover {
   margin-left: 2rem;
 }
 
-.experience-card {
+.education-card {
   background: linear-gradient(135deg, #f7a94a 0%, #ee8506 100%);
   border-radius: 15px;
   padding: 2.5rem;
@@ -101,12 +101,12 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-.experience-card:hover {
+.education-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
-.company-name {
+.institut-name {
   color: #000000;
   font-size: 2rem;
   font-weight: 700;
@@ -129,12 +129,12 @@ button:hover {
   background: transparent;
 }
 
-.responsibilities {
+.respon {
   list-style: none;
   background: transparent;
 }
 
-.responsibilities li {
+.respon li {
   color: #06101ccc;
   background: transparent;
   margin-bottom: 0.8rem;
@@ -143,7 +143,7 @@ button:hover {
   line-height: 1.6;
 }
 
-.responsibilities li::before {
+.respon li::before {
   content: "•";
   color: #000000;
   font-size: 1.5rem;
@@ -166,11 +166,11 @@ button:hover {
     width: 100px;
   }
 
-  .experience-card {
+  .education-card {
     padding: 1.5rem;
   }
 
-  .company-name {
+  .institut-name {
     font-size: 1.5rem;
   }
 
