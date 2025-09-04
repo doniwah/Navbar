@@ -75,25 +75,25 @@ button:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#hero .left_section {
+.left_section {
   max-width: 50%;
   margin-top: -190px !important;
 }
 
-#hero .left_section h1 {
+.left_section h1 {
   font-size: 3rem;
   margin-bottom: 20px;
   color: #000;
 }
-#hero .left_section h3 {
+.left_section h3 {
   color: #fe8c00;
 }
-#hero .left_section h6 {
+.left_section h6 {
   margin-bottom: 10px;
   color: #000;
 }
 
-#hero .left_section p {
+.left_section p {
   margin-bottom: 20px;
   color: #333;
   align-items: center;
@@ -101,7 +101,7 @@ button:hover {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#hero .right_section img {
+.right_section img {
   width: 300px;
   max-width: 100%;
   margin-top: -120px !important;
@@ -110,7 +110,7 @@ button:hover {
   transition: transform 0.3s ease;
 }
 
-#hero .right_section img:hover {
+.right_section img:hover {
   transform: scale(1.05);
 }
 
@@ -121,16 +121,20 @@ button:hover {
     padding: 40px 5%;
   }
 
-  #hero .left_section {
+  .left_section {
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-top: 0px !important;
+    margin-bottom: 150px !important;
   }
 
-  #hero .left_section h1 {
+  .left_section h1 {
     font-size: 2.2rem;
   }
 
-  #hero .right_section img {
-    width: 300px;
+  .left_section p {
+    text-align: justify;
+  }
+
+  .right_section img {
   }
 }
